@@ -40,7 +40,7 @@ class ValidatedPassword extends React.Component {
         onChange={this.handlePasswordChange}
         type="password"
         name="password"
-        value={this.setState.password}
+        value={this.state.password}
         />
         <i className={iconClass}></i>
         <p className={errorColor}>{errorMsg}</p>
