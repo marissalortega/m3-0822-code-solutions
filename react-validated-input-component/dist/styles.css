@@ -1,0 +1,35 @@
+form {
+  margin: 24px;
+}
+
+label {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+  display: block;
+  margin-bottom: 8px;
+}
+
+input {
+  display: inline-block;
+  width: 200px;
+  height: 24px;
+  border: 2px solid black;
+  border-radius: 4px;
+  margin-right: 8px;
+}
+
+i {
+  display: inline;
+}
+
+p {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+  margin-top: 8px;
+}
+
+.red {
+  color: red;
+}
+
+.green {
+  color: green;
+}
