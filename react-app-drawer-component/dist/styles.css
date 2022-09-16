@@ -1,0 +1,65 @@
+body {
+  margin: 0;
+}
+
+.menu-burger {
+  display: inline-block;
+  cursor: pointer;
+  padding: 24px;
+}
+
+h1 {
+  font-family: "Lucida Sans", "Lucida Sans Regular", sans-serif;
+  text-align: center;
+}
+
+.menu-shade-container {
+  display: flex;
+  position: fixed;
+  height: 100%;
+  width: 100%;
+  top: 0;
+}
+
+.no-menu {
+  transform: translateX(-100%);
+  transition: 0.5s;
+}
+
+.show-menu {
+  transform: translateX(0);
+  transition: 0.5s;
+}
+
+.menu {
+  background-color: rgb(249 175 200);
+  width: 320px;
+}
+
+.menu > p {
+  display: inline-block;
+  cursor: pointer;
+  margin: 24px 0 16px 24px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", sans-serif;
+  font-size: 20px;
+  text-transform: uppercase;
+}
+
+.menu ul {
+  padding-left: 24px;
+  margin-top: 0;
+}
+
+.menu li {
+  cursor: pointer;
+  display: inline-block;
+  list-style: none;
+  font-family: "Lucida Sans", "Lucida Sans Regular", sans-serif;
+  text-transform: uppercase;
+  padding-bottom: 16px;
+}
+
+.shade {
+  background-color: rgb(0 0 0 / 50%);
+  width: 100%;
+}
