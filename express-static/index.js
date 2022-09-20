@@ -6,6 +6,7 @@ const app = express();
 const pathJoin = path.join(__dirname, '/public');
 
 const expressStatic = express.static(pathJoin);
+console.log(typeof expressStatic);
 
 app.use(expressStatic);
 
