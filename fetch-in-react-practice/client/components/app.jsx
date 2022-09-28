@@ -38,7 +38,7 @@ export default class App extends React.Component {
     })
       .then(res => res.json())
       .then(todo => {
-        const todosArrayCopy = this.state.todos;
+        const todosArrayCopy = [...this.state.todos];
         this.setState({ todos: todosArrayCopy.concat(todo) });
       })
       .catch(err => console.error('Fetch failed!', err));
@@ -63,7 +63,7 @@ export default class App extends React.Component {
     })
       .then(res => res.json())
       .then(todo => {
-        const todosArrayCopy = this.state.todos;
+        const todosArrayCopy = [...this.state.todos];
 
         todosArrayCopy[index] = todo;
 
